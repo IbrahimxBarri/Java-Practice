@@ -1,0 +1,80 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package chapter3.practice;
+
+import java.util.Scanner;
+
+
+
+/**
+ Write a program that prompts the user to enter a number within the range of 1 through 10. 
+ The program should display the Roman numeral version of that number. If the number is outside the range of 1 through 10,
+  the program should display an error message.
+ */
+public class Chapter3Practice {
+
+  public static void main(String[] args) {
+    
+    Scanner in = new Scanner(System.in);   
+    System.out.println("Enter a number between the range of 1 and 10");    
+    
+    int number  = in.nextInt();  
+    String input;
+    
+    
+    
+    switch (number) {
+      case 1:
+        System.out.println("I is equal to 1");
+        break;
+      case 2:
+        System.out.println("II is equal to 2");
+        break;
+      case 3:
+        System.out.println("III is equal to 3");
+        break;
+      case 4:
+        System.out.println("IV is equal to 4");
+        break;
+      case 5:
+        System.out.println("V is equal to 5");
+        break;
+      case 6:
+        System.out.println("VI is equal to 6");
+        break;
+      case 7:
+        System.out.println("VII is equal to 7");
+        break;
+      case 8:
+        System.out.println("VIII is equal to 8");
+        break;
+      case 9:
+        System.out.println("IX is equal to 9");
+        break;
+      case 10:
+        System.out.println("V is equal to 10");
+        break;
+      default:
+        System.out.println("error, keep the numbers betweeen 0 and 10");
+        break;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+  }
+
+      
+    
+  
